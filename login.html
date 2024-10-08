@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/bootstrap.css">
+   
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/bootstrap.bundle.js"></script>
+    <title>Login</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+
+        <!-- outer start -->
+
+        <!-- headline start -->
+        <div class="row bg-warning py-2">
+            <div class="col-sm-3 pt-2">
+                <i class="fa-solid fa-phone fa-bounce"></i>Call Us: +91 9753254325
+            </div>
+            <div class="col-sm-3 pt-2">
+                <i class="fa-solid fa-envelope fa-shake"></i>Mail Us: email@gmail.com
+            </div>
+            <div class="col-sm-6 text-end">
+
+                <!-- social media icons start-->
+                <ul class="smi">
+                    <li><i class="fa-brands fa-facebook"></i></li>
+                    <li><i class="fa-brands fa-twitter"></i></li>
+                    <li><i class="fa-brands fa-instagram"></i></li>
+                    <li><i class="fa-brands fa-github"></i></li>
+                    </ul>
+                </div>
+            <!-- social media icons end -->
+        </div>
+
+        <!-- headline end -->
+
+         <!-- navbar start -->
+     <div class="row sticky-top">
+        <div class="col-sm-12 p-0">
+            <nav class="navbar navbar-expand-lg bg-light">
+                <div class="container-fluid">
+                    <img src="images/logo2.png" height="80px" alt="">
+                 
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active ms-3 text-dark" aria-current="page" href="index.html">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active ms-3 text-dark" aria-current="page" href="register.html">Register</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active ms-3 text-dark" aria-current="page" href="login.html">Login</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active ms-3 text-dark" aria-current="page" href="about.html">About us</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active ms-3 text-dark" aria-current="page" href="contact.html">Contact us</a>
+                      </li>
+                      
+                    </ul>
+                    <form class="d-flex" role="search">
+                      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                      <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                  </div>
+                </div>
+              </nav>
+        </div>
+     </div>
+     <!-- navbar end -->
+
+
+<!-- form start -->
+ <div class="row mt-5">
+    <div class="col-sm-9 mx-auto  p-4 rounded-4 shadow-lg">
+     <div class="row">
+<div class="col-sm-6 my-5">
+    <img src="images/signin.png" class="img-fluid my-5" alt="">
+</div>
+<div class="col-sm-6 my-auto">
+    <h2 class="text-center">Sign <span class="text-warning">In</span></h2>
+    <form class="row">
+        <div class="form-floating mt-4">
+            <select name="" id="user" class="form-select" placeholder="Select User Type">
+                <label for="user" class="ps-4">Select User Type</label>
+                <option value="" selected>Select...</option>
+                <option value="" >Admin</option>
+                <option value="">Staff</option>
+                <option value="">User</option>
+               
+            </select>
+        </div>
+        <div class="form-floating mt-4">
+            <input type="Email" class="form-control" id="email" placeholder="Enter User Id"/>
+            <label for="email" class="ps-4">User Id</label>
+        </div>
+        <div class="form-floating mt-4 ">
+            <input type="number" class="form-control " id="no" placeholder="Enter your Password"/>
+            <label for="name" class="ps-4">Enter your Password</label>
+        </div>
+        <div class="form-check mt-4 ps-5 ">
+            <input class="form-check-input" type="checkbox" id="flexCheckChecked">
+            <label for="flexCheckChecked" class="form-check-label">Remember me</label>
+    
+       <a href="#" class="text-decoration-none text-dark" style="margin-left: 250px;">Forget Password ?</a>
+
+    </div>
+        <div class="col-md-12 mt-4">
+            <button type="submit" class="btn btn-outline-warning w-100 rounded-pill w-100">Sign in
+            </button>
+        </div>
+    </form>
+    </div>
+</div>
+     </div>
+    
+ </div>
+ <!-- form-end -->
+
+
+
+
+
+
+        <!-- footer start -->
+        <div class="row bg-dark footer pt-5 mt-5">
+            <div class="col-sm-12 text-center text-light">
+                <img src="images/logo2.png" alt="">
+                <h2>About Us</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga eveniet in eos quas atque cumque
+                    ducimus ad. Corrupti iste amet dolor ipsam laborum nam saepe nulla. Iure laudantium inventore
+                    eligendi?
+                    Rem sit excepturi ducimus culpa debitis ad, expedita corrupti optio fugiat sint dolore! Autem
+                    asperiores repellendus dolor, placeat corporis labore accusamus, maiores perferendis aperiam fugit
+                    delectus odio, assumenda est ex?
+                <p>&copy; copyright 2024-2025 all right reserved, designed and developed by <i
+                        class="text-warning">softpro india computer technologies (p) Ltd lucknow.</i></p>
+
+                </p>
+            </div>
+        </div>
+        <!-- footer end -->
+
+        <!-- outer end -->
+    </div>
+</body>
+
+</html>

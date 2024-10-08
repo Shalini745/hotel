@@ -1,0 +1,73 @@
+.section{
+    height: 200px;
+    width: 200px;
+    margin: 0px auto;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: aqua;
+}
+.section img{
+    width: 100%;
+    border-radius: 50%;
+}
+.footer{
+    min-height: 300px;
+}
+.footer img{
+    height: 100px;
+}
+.smi{
+    list-style-type: none;
+    color: white;
+}
+.smi li{
+    display: inline-block;
+    background-color: black;
+    padding: 5px 10px;
+    border-radius: 50%;
+}
+
+/* Contact Us Page  */
+
+#contact{
+    background-image: url('../images/yellow1.png');
+    height: 350px;
+    background-size: cover;
+}
+#contact .col-sm-12{
+    background-color: rgba(12, 10, 10, 0.478);
+}
+#contact .col-sm-12 h1{
+    line-height: 340px;
+}
+.text-justify{
+    text-align:justify;
+}
+.mybtn:hover{
+    color: gold;
+    font-weight: 500;
+}
+.mybtn i{
+    transition: 0.5s ease;
+}
+.mybtn:hover i{
+    margin-left: 20px;
+}
+.welcome{
+    font-family: monotype corsiva;
+    color: navy;
+}
+
+
+/* About Us */
+#about{
+    background-image: url('../images/yellow1.png');
+    height: 350px;
+    background-size: cover;
+}
+#about .col-sm-12{
+    background-color: rgba(12, 10, 10, 0.478);
+}
+#about .col-sm-12 h1{
+    line-height: 340px;
+}
