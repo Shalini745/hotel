@@ -61,7 +61,7 @@
 
 /* About Us */
 #about{
-    background-image: url('../yellow1.png');
+    background-image: url('yellow1.png');
     height: 350px;
     background-size: cover;
 }
